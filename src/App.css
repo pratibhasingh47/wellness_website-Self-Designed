@@ -39,24 +39,20 @@
 
 /* Main content container */
 .container {
-  display: flex;
-  width: calc(100% - 300px); /* Adjusting width to account for side margins */
+    display: flex;
+    width: calc(100% - 300px); /* Adjusting width to account for side margins */
 }
 /* Main content container */
 .main-content {
-  width: 100%;
-  padding: 1rem; /* Adjust padding as needed */
-  transition: margin-left 0.3s ease;
+    width: 100%;
+    padding: 1rem; /* Adjust padding as needed */
+    transition: margin-left 0.3s ease;
 }
 
 .menu-open {
-  margin-left: 0; /* Adjust this if needed when menu is open */
+    margin-left: 0; /* Adjust this if needed when menu is open */
 }
 
 /* Additional global styles if needed */
 
-
 /* Additional global styles if needed */
-
-
-
