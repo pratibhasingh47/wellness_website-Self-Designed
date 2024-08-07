@@ -23,10 +23,17 @@
 }
 
 .hero-right h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0;
     padding: 10px;
     color: #343a40;
+}
+
+.hero-right p{
+    padding: 10px;
+    line-height: 1.4rem;
+    word-spacing: 8px;
+    text-align: justify;
 }
 
 .hero-right h2 {

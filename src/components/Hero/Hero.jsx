@@ -3,6 +3,8 @@ import "./Hero.css";
 
 // Import images from the src/images directory
 import image1 from "../../images/img1.jpg";
+import { Link } from 'react-scroll';
+
 
 const Hero = () => {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -25,8 +27,26 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-right">
-                <h1>Illness/Wellness??</h1>
+                <span>
+                    <h1>Illness Wellness ??</h1>
+                </span>
                 <h2>What will you choose...</h2>
+                <p>
+                    {" "}
+                    Wellness is more than being free from illness, it is a
+                    dynamic process of change and growth. A state of complete
+                    physical, mental, and social well-being, and not merely the
+                    absence of disease or infirmity. Illness = a disease or
+                    period of sickness affecting the body or mind.
+                </p>
+                <Link
+                    to="contact"
+                    smooth={true}
+                    duration={1000}
+                    className="contact-button"
+                >
+                    Contact
+                </Link>
             </div>
         </section>
     );
