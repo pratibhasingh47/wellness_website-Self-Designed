@@ -1,18 +1,18 @@
 /* General Styles */
 .header {
-    background-color: #cfbaf0;
+    background-color: #533fd7;
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
-    width: calc(100% - 300px); /* Adjusting width to account for side margins */
+    width: 100%; /* Adjusting width to account for side margins */
     margin: 0 auto; /* Centering the header */
     z-index: 1000;
     transition: background-color 0.3s ease;
     display: flexbox; /* Ensure flex properties are applied */
     align-items: center; /* Vertically center the content */
-    height: 50px; /* Base height for larger screens */
-    padding-top: 25px;
+    height: 65px; /* Base height for larger screens */
+    padding-top: 20px;
 }
 
 .header-container {
@@ -20,22 +20,24 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    padding-top: 5px;
 }
 
 .header-title {
     font-size: 2rem;
-    color: #023d08;
+    color: #ffffff;
     margin: 0;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 600;
-    font-style: normal; /* Applied font */
+    padding-left: 0.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
 }
 
 .header-nav ul {
     list-style: none;
     display: flex;
     margin: 0;
-    padding: 0;
+    padding-right: 200px;
+    gap: 1.5rem;
     transition: opacity 0.3s ease;
 }
 
@@ -45,11 +47,13 @@
 
 .header-nav a {
     text-decoration: none;
-    color: #5f043c;
+    color: #ffffff;
     font-size: 1rem;
     position: relative;
     transition: color 0.3s ease;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2rem;
     font-weight: 550; /* Applied font */
 }
 
@@ -60,7 +64,7 @@
     bottom: -5px; /* Positioning the underline below the text */
     width: 0;
     height: 2px;
-    background-color: #007bff;
+    background-color: #fefefe;
     transition: width 0.3s ease;
 }
 
@@ -69,7 +73,7 @@
 }
 
 .header-nav a:hover {
-    color: #007bff;
+    color: #ffffff;
 }
 
 .menu-icon {
@@ -84,6 +88,43 @@
 .menu-icon:hover {
     transform: scale(1.1);
 }
+
+.logo {
+    height: 50px; /* Adjust the size of the logo */
+    margin-right: 0.5rem; /* Space between the logo and title */
+}
+
+.header-left {
+    display: flex; /* Stack logo and title vertically */
+    align-items: center; /* Center items */
+    justify-content: center;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -156,6 +197,13 @@
         margin-top: 0px; /* Add top margin of 10px */
     }
 
+    .header-container {
+        flex-direction: flex; ; /* Center items */
+        align-items: flex-start;/* Stack items vertically */
+        justify-content: center; /* Center items */
+        margin-left :0;
+    }
+
     .header-title {
         display: flex;
         font-size: 2rem;
@@ -172,14 +220,16 @@
         display: inline-block;
         margin-bottom: 1rem; /* Add space below the menu icon */
         padding-right: 1.5rem;
-        padding-top: 0.84rem;
+        padding-top: 0.3rem;
         margin-left: 2rem;
+        color: #ffffff;
     }
 
     .header-nav {
         display: none;
         width: 50%;
         background-color: #f8f9fa;
+        color: black;
         position: absolute;
         top: calc(100% + 1rem); /* Position below header */
         left: 0;
@@ -198,6 +248,7 @@
         margin-left: 150px;
         text-align: center;
         opacity: 1;
+        color: black;
     }
 
     .header-nav ul {
@@ -213,5 +264,11 @@
 
     .header-nav a {
         font-size: 1.2rem;
+        color: black;
+    }
+
+    .header-left {
+        display: flex; /* Stack logo and title vertically */
+        margin-left: 0px;
     }
 }

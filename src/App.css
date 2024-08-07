@@ -53,6 +53,38 @@
     margin-left: 0; /* Adjust this if needed when menu is open */
 }
 
+
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.app-container {
+  margin: 0 auto;
+  width: calc(100% - 300px); /* Apply side margins */
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .app-container {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+
 /* Additional global styles if needed */
 
 /* Additional global styles if needed */
