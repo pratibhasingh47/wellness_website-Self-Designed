@@ -12,13 +12,13 @@ const Hero = () => {
         <section className={`hero ${isLoaded ? "loaded" : ""}`}>
             <div className="hero-left">
                 <div className="circle circle1">
-                    <img src="URL_TO_IMAGE_1" alt="Image 1" />
+                    <img src="..//images/img1.jpg" alt="Image 1" />
                 </div>
                 <div className="circle circle2">
-                    <img src="URL_TO_IMAGE_2" alt="Image 2" />
+                    <img src="..//images/img1.jpg" alt="Image 2" />
                 </div>
                 <div className="circle circle3">
-                    <img src="URL_TO_IMAGE_3" alt="Image 3" />
+                    <img src="..//images/img1.jpg" alt="Image 3" />
                 </div>
             </div>
             <div className="hero-right">
