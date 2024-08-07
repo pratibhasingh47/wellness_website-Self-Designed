@@ -45,7 +45,7 @@ const Hero = () => {
                     duration={1000}
                     className="contact-button"
                 >
-                    Contact
+                    Contact Now
                 </Link>
             </div>
         </section>
