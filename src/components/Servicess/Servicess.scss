@@ -1,0 +1,131 @@
+.service {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #03045e;
+
+    &-heading {
+        margin-bottom: 2rem;
+
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: #ffffff;
+        }
+    }
+
+    .accordion-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        width: 60vw;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .accordion {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        text-align: left;
+        background-color: #e2eafc;
+
+        &.active {
+            background-color: #f0f8ff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .accordion-header {
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+
+            h3 {
+                margin-left: 1rem;
+                color: #03045e;
+            }
+
+            svg {
+                color: #0077b6;
+            }
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+
+            p {
+                margin-top: 1rem;
+                font-size: 1.2rem;
+                line-height: 1.8;
+                color: #4a4a4a;
+            }
+        }
+
+        &.active .accordion-content {
+            max-height: 150px; /* Adjust based on your content */
+        }
+    }
+
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+    .service-heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h2{
+            font-size: 2.3rem;
+        }
+        p{
+            font-size: 1.2rem;
+            width: 70vw;
+            line-height: 25px;
+        }
+    }
+
+    .accordion-container {
+        width: 90vw;
+    }
+
+    .accordion-header h3 {
+        font-size: 1.3rem;
+        line-height: 22px;
+    }
+
+    .service .accordion .accordion-content p {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+    .accordion-container {
+        width: 100vw;
+    }
+
+    .accordion-header h3 {
+        font-size: 1.2rem;
+    }
+
+    .service-heading h2 {
+        font-size: 2rem;
+    }
+
+    .service-heading p {
+        font-size: 1rem;
+    }
+}

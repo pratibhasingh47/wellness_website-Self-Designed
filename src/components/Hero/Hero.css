@@ -5,7 +5,8 @@
     justify-content: center;
     padding: 2rem;
     height: 75vh;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
+    background-color: #e2eafc;
     overflow: hidden;
 }
 
@@ -23,15 +24,16 @@
 }
 
 .hero-right h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0;
     padding: 10px;
-    color: #343a40;
+    color: black;
 }
 
 .hero-right p {
+    font-size: 1.35rem;
     padding: 10px;
-    line-height: 1.4rem;
+    line-height: 30px;
     word-spacing: 8px;
     text-align: justify;
 }
@@ -40,7 +42,7 @@
     font-size: 2rem;
     margin: 0;
     padding: 10px;
-    color: #6c757d;
+    color: #040944;
 }
 
 /* Circle Styles */
@@ -87,13 +89,15 @@
 }
 
 .contact-button {
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 1rem;
     margin-left: 10px;
+    font-weight: 700;
     padding: 0.75rem 1.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #fff;
-    background-color: #007bff;
+    width: max-content;
+    background-color: #689af8;
     border: none;
     border-radius: 4px;
     text-decoration: none;
@@ -102,20 +106,43 @@
 }
 
 .contact-button:hover {
-    background-color: #0056b3;
+    background-color: black;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
+        width: 100vw;
+        height: 90vh;
         padding: 1rem;
+        gap: 4rem;
     }
 
     .hero-left,
     .hero-right {
-        display: block;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
     }
 
     .hero-right h1 {
@@ -127,22 +154,22 @@
     }
 
     .circle1 {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         top: 10%;
-        left: 10%;
+        left: 5%;
     }
 
     .circle2 {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         top: 30%;
-        left: 30%;
+        left: 33%;
     }
 
     .circle3 {
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
         top: 70%;
         left: 70%;
     }
@@ -153,7 +180,45 @@
         font-size: 2rem;
     }
 
+    .hero{
+        height: 85vh;
+    }
+
+    .hero-left{
+        height: 100vh;
+    }
+
+    .circle1 {
+        width: 150px;
+        height: 150px;
+        top: 10%;
+        left: -10%;
+    }
+
+    .circle2 {
+        width: 200px;
+        height: 200px;
+        top: 35%;
+        left: 45%;
+    }
+
+    .circle3 {
+        width: 120px;
+        height: 120px;
+        top: 70%;
+        left: 5%;
+    }
+
     .hero-right h2 {
         font-size: 1.2rem;
+    }
+
+    .hero-right p{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .contact-button{
+        font-size: 1rem;
     }
 }

@@ -8,9 +8,9 @@ const Home = () => {
     return (
         <section className="home">
             <div className="home-container">
-                <div className="portrait portrait1">
+                {/* <div className="portrait portrait1">
                     <img src={image1} alt="Portrait 1" />
-                </div>
+                </div> */}
                 <div className="home-content">
                     <h2>Introduction</h2>
                     <p>
