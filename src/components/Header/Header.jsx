@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Header.css";
+import "./Header.scss";
 import herbalifeLogo from '../../images/herbalife-logo.png'; // Adjust path if necessary
 
 const Header = () => {
