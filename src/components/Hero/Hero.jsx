@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Hero.css";
+import "./Hero.scss";
 
 // Import images from the src/images directory
 import image1 from "../../images/img1.jpg";
