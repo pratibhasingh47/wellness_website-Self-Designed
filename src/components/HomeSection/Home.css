@@ -1,0 +1,88 @@
+/* General Styles */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+.portrait {
+    width: 20%;
+    height: 70vh;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 2rem;
+}
+
+.portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-content {
+    flex: 1;
+    text-align: center;
+}
+
+.home-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #6c757d;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .portrait {
+        width: 40%;
+        height: auto;
+        margin: 1rem 0;
+    }
+
+    .home-content h2 {
+        font-size: 2rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .portrait {
+        width: 60%;
+        height: auto;
+        margin: 1rem 0;
+    }
+
+    .home-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .home-content p {
+        font-size: 0.9rem;
+    }
+}

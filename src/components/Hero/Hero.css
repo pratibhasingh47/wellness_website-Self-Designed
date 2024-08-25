@@ -114,7 +114,7 @@
 
     .hero-left,
     .hero-right {
-        flex: none;
+        display: block;
         width: 100%;
     }
 
@@ -136,7 +136,7 @@
     .circle2 {
         width: 150px;
         height: 150px;
-        top: 40%;
+        top: 30%;
         left: 30%;
     }
 
@@ -144,7 +144,7 @@
         width: 80px;
         height: 80px;
         top: 70%;
-        left: 50%;
+        left: 70%;
     }
 }
 
