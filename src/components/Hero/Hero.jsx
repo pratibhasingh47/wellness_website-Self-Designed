@@ -3,8 +3,7 @@ import "./Hero.css";
 
 // Import images from the src/images directory
 import image1 from "../../images/img1.jpg";
-import { Link } from 'react-scroll';
-
+import { Link } from "react-scroll";
 
 const Hero = () => {
     const [isLoaded, setIsLoaded] = useState(false);
