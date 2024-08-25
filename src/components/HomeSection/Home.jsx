@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./Home.scss";
 
 // Import images from the src/images directory
 import image1 from "../../images/img1.jpg";
