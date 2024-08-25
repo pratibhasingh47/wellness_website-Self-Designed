@@ -4,6 +4,7 @@ import "./App.css"; // Make sure to update this file as well
 import Hero from "./components/Hero/Hero";
 import Home from "./components/HomeSection/Home";
 import Servicess from "./components/Servicess/Servicess";
+import Testimonial from "./components/Testimonial/Testimonial";
 
 function App() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,6 +19,7 @@ function App() {
             <Hero></Hero>
             <Home></Home>
             <Servicess></Servicess>
+            <Testimonial/>
         </div>
     );
 }
