@@ -10,7 +10,7 @@ const Contact = () => {
                 <div className="contact-left">
                     <h1 className="contact-heading">Get in Touch ! </h1>
                     <p className="contact-description">
-                        If wou have any query regarding anything. You can contact me anytime or else you 
+                        If wou have any query regarding anything. You can contact me anytime or else you
                         can fill this form. I will be pleased to guide you. Feel free to reach out.
                     </p>
                     <p className="contact-phone">
