@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Servicess.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandshake, faPerson ,faUsers, faRepeat, faClock, faBookOpen , faUtensils } from '@fortawesome/free-solid-svg-icons';
+import { faHandshake, faPerson, faUsers, faRepeat, faClock, faBookOpen, faUtensils } from '@fortawesome/free-solid-svg-icons';
 
 const Service = () => {
     const [activeIndex, setActiveIndex] = useState(null);
