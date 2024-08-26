@@ -11,15 +11,15 @@ import PIC8 from '../../images/PHOTO 8.png';
 import PIC9 from '../../images/PHOTO 9.jpg';
 
 const testimonials = [
-    { name: 'John Doe', imgSrc: PIC1 },
-    { name: 'Jane Smith', imgSrc: PIC2 },
-    { name: 'Emily Johnson', imgSrc: PIC3 },
-    { name: 'Michael Brown', imgSrc: PIC4 },
-    { name: 'Sara Wilson', imgSrc: PIC5 },
+    { name: 'Mr. Tribhuvan Tiwari', imgSrc: PIC1 },
+    { name: 'Mr. Chiman Singh Chundawat', imgSrc: PIC4 },
+    { name: 'Mr. Hari Singh Chundawat', imgSrc: PIC3 },
+    { name: 'Mr. Ratan Singh Chundawat', imgSrc: PIC5 },
+    { name: 'Mr. Pranav Nanavati', imgSrc: PIC7 },
+    { name: 'Mrs. Pushplata Singh', imgSrc: PIC2 },
     { name: 'David Lee', imgSrc: PIC6 },
-    { name: 'Laura Martinez', imgSrc: PIC7 },
     { name: 'James Taylor', imgSrc: PIC8 },
-    { name: 'Olivia Anderson', imgSrc: PIC9 },
+    { name: 'Mrs. Premlata Choudhary', imgSrc: PIC9 },
 ];
 
 const Testimonial = () => {

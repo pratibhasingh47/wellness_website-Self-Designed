@@ -6,6 +6,7 @@ import Home from "./components/HomeSection/Home";
 import Servicess from "./components/Servicess/Servicess";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Caution from "./components/Caution/Caution";
+import MyResult from "./components/MyResult/MyResult";
 
 function App() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,6 +20,7 @@ function App() {
             <Header isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
             <Hero></Hero>
             <Home></Home>
+            <MyResult/>
             <Servicess></Servicess>
             <Testimonial/>
             <Caution/>
