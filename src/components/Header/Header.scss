@@ -5,12 +5,16 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
-    width: 100%; /* Adjusting width to account for side margins */
-    margin: 0 auto; /* Centering the header */
+    width: 100%;
+    /* Adjusting width to account for side margins */
+    margin: 0 auto;
+    /* Centering the header */
     z-index: 1000;
     transition: background-color 0.3s ease;
-    align-items: center; /* Vertically center the content */
-    height: 65px; /* Base height for larger screens */
+    align-items: center;
+    /* Vertically center the content */
+    height: 65px;
+    /* Base height for larger screens */
     padding-top: 20px;
 
     .header-container {
@@ -48,7 +52,8 @@
                 color: #ffffff;
                 font-size: 1.2rem;
                 font-family: "Josefin Sans", sans-serif;
-                font-weight: 550; /* Applied font */
+                font-weight: 550;
+                /* Applied font */
                 position: relative;
                 transition: color 0.3s ease;
 
@@ -56,7 +61,8 @@
                     content: "";
                     position: absolute;
                     left: 0;
-                    bottom: -5px; /* Positioning the underline below the text */
+                    bottom: -5px;
+                    /* Positioning the underline below the text */
                     width: 0;
                     height: 2px;
                     background-color: #fefefe;
@@ -80,7 +86,8 @@
         cursor: pointer;
         transition: transform 0.3s ease;
         position: absolute;
-        right: 1rem; /* Ensure it is not too close to the edge */
+        right: 1rem;
+        /* Ensure it is not too close to the edge */
 
         &:hover {
             transform: scale(1.1);
@@ -88,13 +95,17 @@
     }
 
     .logo {
-        height: 50px; /* Adjust the size of the logo */
-        margin-right: 0.5rem; /* Space between the logo and title */
+        height: 50px;
+        /* Adjust the size of the logo */
+        margin-right: 0.5rem;
+        /* Space between the logo and title */
     }
 
     .header-left {
-        display: flex; /* Stack logo and title vertically */
-        align-items: center; /* Center items */
+        display: flex;
+        /* Stack logo and title vertically */
+        align-items: center;
+        /* Center items */
         justify-content: center;
         margin-left: 50px;
     }
@@ -103,28 +114,37 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .header {
-        width: 100vw; /* Full width on tablets */
-        padding: 1rem; /* Adjust padding for smaller screens */
-        margin: 0; /* Remove side margins */
-        flex-direction: column; /* Stack items vertically */
+        width: 100vw;
+        /* Full width on tablets */
+        padding: 1rem;
+        /* Adjust padding for smaller screens */
+        margin: 0;
+        /* Remove side margins */
+        flex-direction: column;
+        /* Stack items vertically */
         height: min-content;
         position: sticky;
-        
+
         .header-container {
             width: 100vw;
-            display: flex; /* Stack items vertically */
-            justify-content: space-between; /* Center items */
-            align-items: center; /* Center items */
+            display: flex;
+            /* Stack items vertically */
+            justify-content: space-between;
+            /* Center items */
+            align-items: center;
+            /* Center items */
         }
 
         .header-title {
             font-size: 1.5rem;
-            text-align: center; /* Center align text */
+            text-align: center;
+            /* Center align text */
         }
 
         .menu-icon {
             display: block;
-            margin-bottom: 1rem; /* Add space below the menu icon */
+            margin-bottom: 1rem;
+            /* Add space below the menu icon */
             color: #ffffff;
             padding-right: 1.5rem;
             padding-top: 0.3rem;
@@ -136,7 +156,8 @@
             width: 100%;
             background-color: #f8f9fa;
             position: absolute;
-            top: calc(100% + 1rem); /* Position below header */
+            top: calc(100% + 1rem);
+            /* Position below header */
             left: 0;
             right: 0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -179,15 +200,20 @@
 @media (max-width: 480px) {
     .header {
         position: sticky;
-        padding: 1.5rem; /* Adjust padding for smaller screens */
-        height: calc(60px + 5px); /* Increase header height by 15px */
-        margin-top: 0px; /* Add top margin of 10px */
-        
+        padding: 1.5rem;
+        /* Adjust padding for smaller screens */
+        height: calc(60px + 5px);
+        /* Increase header height by 15px */
+        margin-top: 0px;
+        /* Add top margin of 10px */
+
         .header-container {
             display: flex;
             width: 100vw;
-            align-items: center; /* Stack items vertically */
-            justify-content: space-between; /* Center items */
+            align-items: center;
+            /* Stack items vertically */
+            justify-content: space-between;
+            /* Center items */
         }
 
         .header-title {
@@ -204,7 +230,8 @@
             background-color: #f8f9fa;
             color: black;
             position: absolute;
-            top: calc(100% + 1rem); /* Position below header */
+            top: calc(100% + 1rem);
+            /* Position below header */
             left: 0;
             right: 0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -244,7 +271,8 @@
 
         .menu-icon {
             display: inline-block;
-            margin-bottom: 1rem; /* Add space below the menu icon */
+            margin-bottom: 1rem;
+            /* Add space below the menu icon */
             padding-right: 1.5rem;
             padding-top: 0.3rem;
             margin-left: 2rem;
@@ -252,7 +280,8 @@
         }
 
         .header-left {
-            display: flex; /* Stack logo and title vertically */
+            display: flex;
+            /* Stack logo and title vertically */
             margin-left: 0px;
         }
     }
