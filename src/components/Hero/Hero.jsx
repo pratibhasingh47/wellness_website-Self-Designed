@@ -34,11 +34,14 @@ const Hero = () => {
                 <h2>What will you choose...</h2>
                 <p>
                     {" "}
-                    Wellness is more than being free from illness, it is a
+                    In our present life , everyone is suffering from disease like BP , Stress , Obsesity, Diabetes , Constipation ,etc.
+                    We all have to eradicate these problems and should focus on wellness rather than focusing on medical disease.
+                    The primary cause of all these problems is unhealthy eating.
+                    Our diet should contain a proper proportion of proteins , Vitamins, Minerals , carbohydrates and fats.
+                    Though wellness is more than being free from illness, it is a
                     dynamic process of change and growth. A state of complete
                     physical, mental, and social well-being, and not merely the
-                    absence of disease or infirmity. Illness = a disease or
-                    period of sickness affecting the body or mind.
+                    absence of disease or infirmity.
                 </p>
                 <Link
                     to="contact"

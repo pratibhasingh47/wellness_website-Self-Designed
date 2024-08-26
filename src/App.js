@@ -8,6 +8,7 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import Caution from "./components/Caution/Caution";
 import MyResult from "./components/MyResult/MyResult";
 import Journey from "./components/Journey/Journey";
+import Contact from "./components/Contact/Contact";
 
 function App() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,6 +27,7 @@ function App() {
             <Testimonial/>
             <Journey/>
             <Caution/>
+            <Contact/>
         </div>
     );
 }

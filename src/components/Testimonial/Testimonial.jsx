@@ -5,21 +5,21 @@ import PIC2 from '../../images/PHOTO 2.png';
 import PIC3 from '../../images/PHOTO 3.png';
 import PIC4 from '../../images/PHOTO 4.png';
 import PIC5 from '../../images/PHOTO 5.png';
-import PIC6 from '../../images/PHOTO 6.jpg';
+import PIC6 from '../../images/PHOTO 6.png';
 import PIC7 from '../../images/PHOTO 7.png';
 import PIC8 from '../../images/PHOTO 8.png';
 import PIC9 from '../../images/PHOTO 9.jpg';
 
 const testimonials = [
-    { name: 'Mr. Tribhuvan Tiwari', imgSrc: PIC1 },
-    { name: 'Mr. Chiman Singh Chundawat', imgSrc: PIC4 },
-    { name: 'Mr. Hari Singh Chundawat', imgSrc: PIC3 },
-    { name: 'Mr. Ratan Singh Chundawat', imgSrc: PIC5 },
-    { name: 'Mr. Pranav Nanavati', imgSrc: PIC7 },
-    { name: 'Mrs. Pushplata Singh', imgSrc: PIC2 },
-    { name: 'David Lee', imgSrc: PIC6 },
-    { name: 'James Taylor', imgSrc: PIC8 },
-    { name: 'Mrs. Premlata Choudhary', imgSrc: PIC9 },
+    { name: 'Tribhuvan Tiwari', imgSrc: PIC1 },
+    { name: 'Chiman Singh Chundawat', imgSrc: PIC4 },
+    { name: 'Hari Singh Chundawat', imgSrc: PIC3 },
+    { name: 'Ratan Singh Chundawat', imgSrc: PIC5 },
+    { name: 'Pranav Nanavati', imgSrc: PIC7 },
+    { name: 'Pushplata Singh', imgSrc: PIC2 },
+    { name: 'Sugandha Pawar', imgSrc: PIC6 },
+    { name: 'Nandkishore Gola', imgSrc: PIC8 },
+    { name: 'Premlata Choudhary', imgSrc: PIC9 },
 ];
 
 const Testimonial = () => {
@@ -28,7 +28,8 @@ const Testimonial = () => {
             <h1 className="testimonial-heading">Testimonials</h1>
             <div className="testimonial-footer">
                 <p className="testimonial-footer-text">
-                    Our clients' feedback is crucial in helping us improve our services. We are dedicated to providing top-notch service and appreciate the insights shared by our valued clients.
+                    We are dedicated to providing a best result to our people. There are many people's who are associated and are the part of this community.
+                    These are some testimonial
                 </p>
             </div>
             <div className="testimonial-content">

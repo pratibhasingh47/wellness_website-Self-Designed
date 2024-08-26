@@ -93,12 +93,40 @@
     .my-result-description {
         font-size: 1rem;
     }
+
+    .my-result{
+        height: 120vh;
+    }
+
+    .my-result .my-result-container {
+        height: 100vh;
+    }
+
+
+.my-result .my-result-container .my-result-left {
+    max-width: 400px;
+}
+
+    
+
 }
 
 @media (max-width: 480px) {
     
     .my-result .my-result-title {
         font-size: 1.5rem;
+    }
+
+    .my-result{
+        height: 100vh;
+    }
+
+    .my-result .my-result-container{
+        height: 100vh;
+    }
+
+    .my-result .my-result-title{
+        padding: 0;
     }
 
     
