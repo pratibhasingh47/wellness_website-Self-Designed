@@ -44,6 +44,7 @@
         }
     }
 }
+
 /* Circle Styles */
 .circle {
     position: absolute;
@@ -132,6 +133,7 @@
     .hero .hero-right {
         text-align: left;
         margin-left: 50px;
+
         h1 {
             font-size: 2.5rem;
         }
@@ -139,12 +141,14 @@
         h2 {
             font-size: 1.5rem;
         }
-        p{
+
+        p {
             width: 80%;
             font-size: 1rem;
             line-height: 25px;
         }
-        .contact-button{
+
+        .contact-button {
             font-size: 1rem;
             margin-top: 0;
             margin-bottom: 10px;
