@@ -6,7 +6,7 @@ import intro from "../../images/intro.jpg";
 
 const Home = () => {
     return (
-        <section className="home">
+        <section id="home" className="home">
             <div className="home-container">
                 {/* <div className="portrait portrait1">
                     <img src={image1} alt="Portrait 1" />

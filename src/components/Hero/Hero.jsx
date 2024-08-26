@@ -46,7 +46,7 @@ const Hero = () => {
                 <Link
                     to="contact"
                     smooth={true}
-                    duration={1000}
+                    duration={2000}
                     className="contact-button"
                 >
                     Contact Now

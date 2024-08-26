@@ -3,7 +3,7 @@
     background-color: #03045e;
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%; /* Adjusting width to account for side margins */
     margin: 0 auto; /* Centering the header */
@@ -108,6 +108,7 @@
         margin: 0; /* Remove side margins */
         flex-direction: column; /* Stack items vertically */
         height: min-content;
+        position: sticky;
         
         .header-container {
             width: 100vw;
@@ -177,6 +178,7 @@
 
 @media (max-width: 480px) {
     .header {
+        position: sticky;
         padding: 1.5rem; /* Adjust padding for smaller screens */
         height: calc(60px + 5px); /* Increase header height by 15px */
         margin-top: 0px; /* Add top margin of 10px */

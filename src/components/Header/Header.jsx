@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import "./Header.scss";
 import herbalifeLogo from '../../images/herbalife-logo.png'; // Adjust path if necessary
 
@@ -26,16 +27,48 @@ const Header = () => {
                 <nav className={`header-nav ${navOpen ? "open" : ""}`}>
                     <ul>
                         <li>
-                            <a href="#home">Home</a>
+                            <Link
+                                to="home"
+                                smooth={true}
+                                duration={500}
+                                offset={-50}
+                                onClick={toggleNav}
+                            >
+                                Home
+                            </Link>
                         </li>
                         <li>
-                            <a href="#services">Services</a>
+                            <Link
+                                to="services"
+                                smooth={true}
+                                duration={1000}
+                                offset={-50}
+                                onClick={toggleNav}
+                            >
+                                Services
+                            </Link>
                         </li>
                         <li>
-                            <a href="#testimonials">Testimonials</a>
+                            <Link
+                                to="testimonials"
+                                smooth={true}
+                                duration={2000}
+                                offset={-50}
+                                onClick={toggleNav}
+                            >
+                                Testimonials
+                            </Link>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <Link
+                                to="contact"
+                                smooth={true}
+                                duration={2000}
+                                offset={-50}
+                                onClick={toggleNav}
+                            >
+                                Contact
+                            </Link>
                         </li>
                     </ul>
                 </nav>

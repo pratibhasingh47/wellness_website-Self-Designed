@@ -5,7 +5,7 @@ import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
     return (
-        <section className="contact-section">
+        <section id='contact' className="contact-section">
             <div className="contact-container">
                 <div className="contact-left">
                     <h1 className="contact-heading">Get in Touch ! </h1>

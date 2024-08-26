@@ -24,7 +24,7 @@ const testimonials = [
 
 const Testimonial = () => {
     return (
-        <section className="testimonial">
+        <section id='testimonials' className="testimonial">
             <h1 className="testimonial-heading">Testimonials</h1>
             <div className="testimonial-footer">
                 <p className="testimonial-footer-text">
