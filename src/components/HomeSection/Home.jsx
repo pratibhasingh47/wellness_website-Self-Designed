@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.scss";
 
 // Import images from the src/images directory
-import image1 from "../../images/img1.jpg";
+import intro from "../../images/intro.jpg";
 
 const Home = () => {
     return (
@@ -22,7 +22,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="portrait portrait2">
-                    <img src={image1} alt="Portrait 2" />
+                    <img src={intro} alt="Portrait 2" />
                 </div>
             </div>
         </section>

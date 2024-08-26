@@ -2,6 +2,7 @@
 .testimonial {
     padding: 2rem;
     text-align: center;
+    background-color: #e2eafc;
 
     .testimonial-heading {
         font-size: 2.5rem;
@@ -23,8 +24,8 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 1.5rem;
-            width: 100%;
-            max-width: 1200px;
+            width: 70vw;
+            // max-width: 1200px;
 
             .testimonial-card {
                 background-color: #ffffff;
@@ -37,17 +38,26 @@
                 text-align: center;
                 padding: 1rem;
 
-                .testimonial-img {
-                    width: 80%;
-                    height: auto;
-                    aspect-ratio: 1 / 1; /* Square image */
-                    object-fit: cover;
+                .testimonial-img-container {
+                    width: 100%;
+                    height: 0;
+                    padding-bottom: 80%; /* Maintain aspect ratio */
+                    position: relative;
+                    overflow: hidden;
                     border-radius: 8px;
                     margin-bottom: 15px;
+
+                    .testimonial-img {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
                 }
 
                 .testimonial-name {
-                    margin-top: 0.5rem;
                     font-size: 1.2rem;
                     color: #03045e;
                     font-family: "Josefin Sans", sans-serif;

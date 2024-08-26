@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.scss";
 
-import image1 from "../../images/img1.jpg";
+// import image1 from "../../images/img1.jpg";
+import illness1 from '../../images/sickness.jpg';
+import wellness from '../../images/wellness.png';
+import wellness2 from '../../images/wellness2.webp';
 import { Link } from "react-scroll";
 
 const Hero = () => {
@@ -15,13 +18,13 @@ const Hero = () => {
         <section className={`hero ${isLoaded ? "loaded" : ""}`}>
             <div className="hero-left">
                 <div className="circle circle1">
-                    <img src={image1} alt="" />
+                    <img src={illness1} alt="" />
                 </div>
                 <div className="circle circle2">
-                    <img src={image1} alt="" />
+                    <img src={wellness} alt="" />
                 </div>
                 <div className="circle circle3">
-                    <img src={image1} alt="" />
+                    <img src={wellness2} alt="" />
                 </div>
             </div>
             <div className="hero-right">
